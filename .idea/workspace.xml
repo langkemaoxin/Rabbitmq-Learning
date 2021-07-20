@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbec802b-41a7-4628-a22d-36312b1b2363" name="Default Changelist" comment="" />
+    <list default="true" id="fbec802b-41a7-4628-a22d-36312b1b2363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_05_default_ex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/demo_02_rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/demo_03_workqueue/target/" />
     <ignored path="$PROJECT_DIR$/demo_04_fanout/target/" />
+    <ignored path="$PROJECT_DIR$/demo_05_default_ex/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_03_workqueue/src/main/java/com/lagou/rabbitmq/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/demo_04_fanout/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -31,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="192">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,66 +49,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer1.java">
+        <entry file="file://$PROJECT_DIR$/demo_05_default_ex/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#788#942#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#788#1010#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="72">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop/maven/repository/com/rabbitmq/amqp-client/5.9.0/amqp-client-5.9.0-sources.jar!/com/rabbitmq/client/Channel.java">
+        <entry file="file://$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="378" column="23" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_03_workqueue/src/main/java/com/lagou/rabbitmq/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="552">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,10 +82,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_04_fanout/pom.xml">
+        <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="268">
+              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +115,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rabbitmq-demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,6 +133,9 @@
         <option value="$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer2.java" />
         <option value="$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer3.java" />
         <option value="$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/readme.md" />
+        <option value="$PROJECT_DIR$/demo_05_default_ex/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Producer.java" />
+        <option value="$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Consumer.java" />
       </list>
     </option>
   </component>
@@ -163,12 +154,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="179" />
-    <option name="y" value="187" />
+    <option name="x" value="-55" />
+    <option name="y" value="139" />
     <option name="width" value="1940" />
     <option name="height" value="909" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -184,25 +177,25 @@
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_02_rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_02_rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_02_rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_02_rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -210,7 +203,7 @@
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_02_rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -219,13 +212,6 @@
             <path>
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_03_workqueue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo_04_fanout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,6 +239,41 @@
               <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo_04_fanout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_05_default_ex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_05_default_ex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_05_default_ex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_05_default_ex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_05_default_ex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -267,6 +288,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -295,10 +317,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Producer (1)">
-    <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lagou.rabbitmq.Consumer1" />
-      <module name="demo_04_fanout" />
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.rabbitmq.Consumer" />
+      <module name="demo_05_default_ex" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lagou.rabbitmq.*" />
@@ -350,7 +372,7 @@
     </configuration>
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lagou.rabbitmq.Producer" />
-      <module name="demo_03_workqueue" />
+      <module name="demo_05_default_ex" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lagou.rabbitmq.*" />
@@ -362,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Producer" />
-      <item itemvalue="Application.Consumer1" />
       <item itemvalue="Application.Consumer2" />
       <item itemvalue="Application.Consumer3" />
       <item itemvalue="Application.Producer (1)" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Producer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Producer" />
         <item itemvalue="Application.Producer (1)" />
         <item itemvalue="Application.Consumer3" />
         <item itemvalue="Application.Consumer2" />
-        <item itemvalue="Application.Consumer1" />
-        <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
   </component>
@@ -390,18 +412,19 @@
       <updated>1626577550662</updated>
       <workItem from="1626577551812" duration="7028000" />
       <workItem from="1626792039376" duration="987000" />
+      <workItem from="1626822732309" duration="1357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8015000" />
+    <option name="totallyTimeSpent" value="9372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.34333333" visible="true" weight="0.18786903" />
-      <window_info id="Structure" order="1" sideWeight="0.6566667" side_tool="true" visible="true" weight="0.18786903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5588889" visible="true" weight="0.19055288" />
+      <window_info id="Structure" order="1" sideWeight="0.44111112" side_tool="true" visible="true" weight="0.19055288" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -451,30 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloCallBackConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -491,72 +494,50 @@
     <entry file="file://$PROJECT_DIR$/demo_03_workqueue/src/main/java/com/lagou/rabbitmq/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_04_fanout/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_03_workqueue/src/main/java/com/lagou/rabbitmq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/maven/repository/com/rabbitmq/amqp-client/5.9.0/amqp-client-5.9.0-sources.jar!/com/rabbitmq/client/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="378" column="23" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="624">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#788#942#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="600">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Consumer3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="360">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/maven/repository/com/rabbitmq/amqp-client/5.9.0/amqp-client-5.9.0-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8520">
+          <caret line="378" column="23" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_03_workqueue/src/main/java/com/lagou/rabbitmq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="55" />
           <folding>
-            <element signature="e#788#1010#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,6 +549,70 @@
             <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_04_fanout/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_05_default_ex/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_04_fanout/src/main/java/com/lagou/rabbitmq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_02_rabbitmq/src/main/java/com/lagou/rabbitmq/HelloProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_05_default_ex/src/main/java/com/lagou/rabbitmq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,7 +666,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>demo_02_rabbitmq</last-edited>
+          <last-edited>demo_05_default_ex</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo_04_fanout" />
+        <module name="demo_05_default_ex" />
         <module name="demo_03_workqueue" />
         <module name="demo_02_rabbitmq" />
       </profile>
@@ -15,6 +16,7 @@
       <module name="demo_02_rabbitmq" target="8" />
       <module name="demo_03_workqueue" target="1.5" />
       <module name="demo_04_fanout" target="1.5" />
+      <module name="demo_05_default_ex" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
