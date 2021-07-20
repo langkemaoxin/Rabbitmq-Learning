@@ -1,0 +1,1 @@
+这里使用BlockingQueue 模拟消息队列
