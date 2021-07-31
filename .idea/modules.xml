@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/demo_03_workqueue/demo_03_workqueue.iml" filepath="$PROJECT_DIR$/demo_03_workqueue/demo_03_workqueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" filepath="$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" filepath="$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" filepath="$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" filepath="$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-demo.iml" />
     </modules>
   </component>
