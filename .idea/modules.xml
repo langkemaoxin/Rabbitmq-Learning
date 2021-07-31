@@ -6,10 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/demo_03_workqueue/demo_03_workqueue.iml" filepath="$PROJECT_DIR$/demo_03_workqueue/demo_03_workqueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" filepath="$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" filepath="$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_18_dlx/demo_18_dlx.iml" filepath="$PROJECT_DIR$/demo_18_dlx/demo_18_dlx.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" filepath="$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" filepath="$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_22_consumerAck/demo_22_consumerAck.iml" filepath="$PROJECT_DIR$/demo_22_consumerAck/demo_22_consumerAck.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_23_consumerQos/demo_23_consumerQos.iml" filepath="$PROJECT_DIR$/demo_23_consumerQos/demo_23_consumerQos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_24_tracing/demo_24_tracing.iml" filepath="$PROJECT_DIR$/demo_24_tracing/demo_24_tracing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-demo.iml" />
     </modules>
   </component>
