@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/demo_23_consumerQos/pom.xml" />
         <option value="$PROJECT_DIR$/demo_24_tracing/pom.xml" />
         <option value="$PROJECT_DIR$/demo_18_dlx/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_06_routingmode/pom.xml" />
+        <option value="$PROJECT_DIR$/order-manager-system/pom.xml" />
       </list>
     </option>
   </component>
