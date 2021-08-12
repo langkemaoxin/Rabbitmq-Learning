@@ -11,12 +11,13 @@
         <module name="demo_23_consumerQos" />
         <module name="demo_03_workqueue" />
         <module name="demo_21_persistent" />
-        <module name="demo_05_default_ex" />
         <module name="demo_06_routingmode" />
         <module name="demo_02_rabbitmq" />
         <module name="demo_22_consumerAck" />
-        <module name="demo_18_dlx" />
         <module name="demo_04_fanout" />
+        <module name="demo_18_dlx" />
+        <module name="demo_07_topicmode" />
+        <module name="demo_05_default_ex" />
         <module name="demo_24_tracing" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="demo_04_fanout" target="1.5" />
       <module name="demo_05_default_ex" target="1.5" />
       <module name="demo_06_routingmode" target="1.5" />
+      <module name="demo_07_topicmode" target="1.5" />
       <module name="demo_18_dlx" target="7" />
       <module name="demo_20_publiserconfirms_01" target="7" />
       <module name="demo_21_persistent" target="1.5" />

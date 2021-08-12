@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" filepath="$PROJECT_DIR$/demo_04_fanout/demo_04_fanout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" filepath="$PROJECT_DIR$/demo_05_default_ex/demo_05_default_ex.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_06_routingmode/demo_06_routingmode.iml" filepath="$PROJECT_DIR$/demo_06_routingmode/demo_06_routingmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_07_topicmode/demo_07_topicmode.iml" filepath="$PROJECT_DIR$/demo_07_topicmode/demo_07_topicmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_18_dlx/demo_18_dlx.iml" filepath="$PROJECT_DIR$/demo_18_dlx/demo_18_dlx.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" filepath="$PROJECT_DIR$/demo_20_publiserconfirms_01/demo_20_publiserconfirms_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" filepath="$PROJECT_DIR$/demo_21_persistent/demo_21_persistent.iml" />
