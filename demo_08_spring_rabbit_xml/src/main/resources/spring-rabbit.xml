@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/rabbit
+        http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <rabbit:connection-factory id="connectionFactory"
+                               host="192.168.192.129"
+                               username="root"
+                               password="123456"
+                               port="5672"
+                               virtual-host="/"/>
+
+    <!--  消息队列里面有个超级管理员，他操纵一切  -->
+    <rabbit:admin id="rabbitAdmin" connection-factory="connectionFactory"/>
+
+    <!--  用于简化操纵的模板  -->
+    <rabbit:template id="rabbitTemplate" connection-factory="connectionFactory"/>
+
+
+    <!--  声明一个队列  -->
+    <rabbit:queue id="queue" name="queue.q1" durable="false" auto-delete="false" exclusive="false"/>
+
+    <!--  声明一个交换机  -->
+    <rabbit:direct-exchange name="ex.direct" durable="false" auto-delete="false" id="directExchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="queue" key="routing.q1"/>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+
+</beans>
