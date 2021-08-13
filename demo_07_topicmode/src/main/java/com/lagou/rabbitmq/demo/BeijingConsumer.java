@@ -8,7 +8,7 @@ public class BeijingConsumer {
     public static void main(String[] args) throws Exception {
 
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setUri("amqp://root:123456@192.168.192.200/2%f");
+        factory.setUri("amqp://root:123456@192.168.192.129:5672/%2f");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
@@ -28,7 +28,6 @@ public class BeijingConsumer {
                     }
                 }, new CancelCallback() {
                     public void handle(String consumerTag) throws IOException {
-
                     }
                 }
         );

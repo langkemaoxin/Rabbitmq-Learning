@@ -23,7 +23,7 @@ public class Producer {
     public static void main(String[] args) throws Exception {
 
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setUri("ampq://root:123456@192.168.192.129:5672/%2f");
+        factory.setUri("amqp://root:123456@192.168.192.129:5672/%2f");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
@@ -38,12 +38,16 @@ public class Producer {
             biz=LOG_BIZ[RANDOM.nextInt(LOG_BIZ.length)];
             area=LOG_AREA[RANDOM.nextInt(LOG_AREA.length)];
 
+            //BEIJING.EDU-ONLINE.INFO
             routingKey=area+"."+biz+"."+level;
             message = "LOG: [" + level + "] :这是 [" + area + "] 地区 [" + biz + "] 服务器发来的消息，MSG_SEQ = " + i;
 
             //发送消息的时候，routingKey为不同的组合
             channel.basicPublish("ex.topic",routingKey,null,message.getBytes());
         }
+
+        channel.close();
+        connection.close();
 
     }
 }
