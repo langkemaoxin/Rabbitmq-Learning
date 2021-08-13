@@ -19,6 +19,7 @@
         <module name="demo_24_tracing" />
         <module name="demo_21_persistent" />
         <module name="demo_03_workqueue" />
+        <module name="demo_11_spring_rabbit_anno_producer" />
         <module name="demo_02_rabbitmq" />
         <module name="demo_04_fanout" />
         <module name="demo_05_default_ex" />
@@ -35,6 +36,7 @@
       <module name="demo_08_spring_rabbit_xml" target="1.5" />
       <module name="demo_09_spring_rabbit_xml_consumer" target="1.5" />
       <module name="demo_10_spring_rabbit_xml_listener" target="1.5" />
+      <module name="demo_11_spring_rabbit_anno_producer" target="1.5" />
       <module name="demo_18_dlx" target="7" />
       <module name="demo_20_publiserconfirms_01" target="7" />
       <module name="demo_21_persistent" target="1.5" />
