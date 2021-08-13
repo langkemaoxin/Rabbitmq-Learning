@@ -15,6 +15,7 @@
         <module name="demo_07_topicmode" />
         <module name="order-manager-system" />
         <module name="demo_23_consumerQos" />
+        <module name="demo_10_spring_rabbit_xml_listener" />
         <module name="demo_24_tracing" />
         <module name="demo_21_persistent" />
         <module name="demo_03_workqueue" />
@@ -33,6 +34,7 @@
       <module name="demo_07_topicmode" target="1.5" />
       <module name="demo_08_spring_rabbit_xml" target="1.5" />
       <module name="demo_09_spring_rabbit_xml_consumer" target="1.5" />
+      <module name="demo_10_spring_rabbit_xml_listener" target="1.5" />
       <module name="demo_18_dlx" target="7" />
       <module name="demo_20_publiserconfirms_01" target="7" />
       <module name="demo_21_persistent" target="1.5" />
