@@ -13,6 +13,7 @@
         <module name="demo_18_dlx" />
         <module name="demo_08_spring_rabbit_xml" />
         <module name="demo_22_consumerAck" />
+        <module name="demo_17_ttl" />
         <module name="demo_07_topicmode" />
         <module name="demo_12_spring_rabbit_anno_consumer" />
         <module name="order-manager-system" />
@@ -45,6 +46,7 @@
       <module name="demo_13_spring_rabbit_anno_listener" target="1.5" />
       <module name="demo_14_springboot_rabbitmq" target="1.8" />
       <module name="demo_15_springboot_consumer" target="1.8" />
+      <module name="demo_17_ttl" target="7" />
       <module name="demo_18_dlx" target="7" />
       <module name="demo_20_publiserconfirms_01" target="7" />
       <module name="demo_21_persistent" target="1.5" />
