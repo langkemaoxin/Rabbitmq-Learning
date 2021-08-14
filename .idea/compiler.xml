@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo_09_spring_rabbit_xml_consumer" />
+        <module name="demo_14_springboot_rabbitmq" />
         <module name="demo_20_publiserconfirms_01" />
         <module name="demo_18_dlx" />
         <module name="demo_08_spring_rabbit_xml" />
@@ -17,6 +18,7 @@
         <module name="order-manager-system" />
         <module name="demo_23_consumerQos" />
         <module name="demo_10_spring_rabbit_xml_listener" />
+        <module name="demo_15_springboot_consumer" />
         <module name="demo_13_spring_rabbit_anno_listener" />
         <module name="demo_24_tracing" />
         <module name="demo_21_persistent" />
@@ -41,6 +43,8 @@
       <module name="demo_11_spring_rabbit_anno_producer" target="1.5" />
       <module name="demo_12_spring_rabbit_anno_consumer" target="1.5" />
       <module name="demo_13_spring_rabbit_anno_listener" target="1.5" />
+      <module name="demo_14_springboot_rabbitmq" target="1.8" />
+      <module name="demo_15_springboot_consumer" target="1.8" />
       <module name="demo_18_dlx" target="7" />
       <module name="demo_20_publiserconfirms_01" target="7" />
       <module name="demo_21_persistent" target="1.5" />
@@ -52,6 +56,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo_14_springboot_rabbitmq" options="-parameters" />
+      <module name="demo_15_springboot_consumer" options="-parameters" />
       <module name="order-manager-system" options="-parameters" />
     </option>
   </component>
