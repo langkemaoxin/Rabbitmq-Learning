@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/demo_14_springboot_rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/demo_15_springboot_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/demo_17_ttl/pom.xml" />
+        <option value="$PROJECT_DIR$/project/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: demo_01
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myorder001
+    username: root
+    password: root
+  rabbitmq:
+    host: 192.168.192.129
+    username: root
+    password: 123456
+    port: 5672
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual # 消费者手动确认消息
+        default-requeue-rejected: true # 消息被拒收时，消息重新入队
+
+  thymeleaf:
+    cache: true # 开启模板缓存
+    check-template: true # 检查模板是否存在，然后再呈现
+    check-template-location: true # 检查模板位置是否正确
+    servlet:
+      content-type: text/html
+    enabled: true # 开启MVC Thymeleaf 视图解析
+    encoding: utf-8
+    excluded-view-names: # 要排除在解析之外的视图名称列表，用逗号分割
+    mode: HTML # 要运用于模板之上的模板模式
+    prefix: classpath:/templates/ #在构建URL时添加到视图名称前的前缀
+    suffix: .html # 在构建URL时添加到视图名称后的后缀
+mybatis:
+  type-aliases-package: com.lagou.rabbit.demo.po

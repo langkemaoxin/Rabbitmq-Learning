@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_23_consumerQos/demo_23_consumerQos.iml" filepath="$PROJECT_DIR$/demo_23_consumerQos/demo_23_consumerQos.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_24_tracing/demo_24_tracing.iml" filepath="$PROJECT_DIR$/demo_24_tracing/demo_24_tracing.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-manager-system/order-manager-system.iml" filepath="$PROJECT_DIR$/order-manager-system/order-manager-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/project.iml" filepath="$PROJECT_DIR$/project/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-demo.iml" />
     </modules>
   </component>
