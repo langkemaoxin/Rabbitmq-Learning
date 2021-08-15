@@ -2,6 +2,7 @@ package com.lagou.rabbit.demo.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.lagou.rabbit.demo.enums.OrderStatus;
 import com.lagou.rabbit.demo.mapper.OrderMapper;
 import com.lagou.rabbit.demo.po.Order;
@@ -13,7 +14,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.UnsupportedEncodingException;
 import java.util.Date;
+import java.util.List;
+import java.util.UUID;
 
 @Service
 public class OrderServiceImpl implements OrderService {
@@ -27,10 +31,11 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     @Transactional
-    public boolean saveOrder(Order order) {
+    public boolean saveOrder(Order order) throws UnsupportedEncodingException {
 
-        order.setId(1L);
-        order.setOrderNo("11");
+        //order.setId(1L);
+
+        order.setOrderNo(UUID.randomUUID().toString());
         Date date = new Date();
         order.setCreateTime(date);
         order.setUpdateTime(date);
@@ -56,7 +61,9 @@ public class OrderServiceImpl implements OrderService {
             rabbitTemplate.convertAndSend("e.biz", "r.biz", order.getCourseId() + "");
 
             //向TTL队列发送消息,延迟队列
-            rabbitTemplate.send("e.ttl", "r.ttl", new Message(order.getOrderNo().getBytes(), MessagePropertiesBuilder.newInstance().build()));
+            //rabbitTemplate.send("e.ttl", "r.ttl", new Message(order.getOrderNo().getBytes("utf-8"), MessagePropertiesBuilder.newInstance().build()));
+            rabbitTemplate.convertAndSend("e.ttl", "r.ttl", order.getOrderNo());
+
         }
 
         return flag;
@@ -70,7 +77,7 @@ public class OrderServiceImpl implements OrderService {
                 .eq("order_no", order.getOrderNo())
         );
 
-        return update==1;
+        return update == 1;
     }
 
     /**
@@ -99,5 +106,18 @@ public class OrderServiceImpl implements OrderService {
                 .eq("order_no", order.getOrderNo()));
 
         return update == 1;
+    }
+
+    @Override
+    public List<Order> listOrder() {
+        List<Order> orders = orderMapper.selectList(new QueryWrapper<>());
+
+        for (Order order : orders) {
+            String name = OrderStatus.get(order.getStatus()).getName();
+            if (StringUtils.isNotBlank(name))
+                order.setStatusName(name);
+        }
+
+        return orders;
     }
 }

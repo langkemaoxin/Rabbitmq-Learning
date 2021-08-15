@@ -26,6 +26,6 @@ public class CourseServiceImpl implements CourseService {
     @Transactional
     public boolean updateStore(Integer courseId, Long num) {
         System.out.println("执行库存扣减，商品编号"+courseId);
-        return false;
+        return true;
     }
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>课程名称</th>
+            <th>课程介绍</th>
+            <th>时长</th>
+            <th>价格</th>
+            <th>购买总量</th>
+            <th>加入学习</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="course:${courses}">
+            <td><span th:text="${course.getId()}">序号</span></td>
+            <td><span th:text="${course.getCourseName()}">课程名称</span></td>
+            <td><span th:text="${course.getBrief()}">课程介绍</span></td>
+            <td><span th:text="${course.getTotalDuration()}">时长</span></td>
+            <td><span th:text="${course.getPrice()}">价格</span></td>
+            <td><span th:text="${course.getSales()}">购买总量</span></td>
+            <td>
+                <a class="btn btn-primary" th:href="@{'/order/save/' + ${course.getId()} }">加入学习</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <a class="btn btn-primary right-button" th:href="@{'/order/list/'} ">订单列表</a>
+    </div>
+</div>
+</body>
+</html>

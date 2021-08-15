@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>订单编号</th>
+            <th>订单状态</th>
+            <th>创建时间</th>
+            <th>更新时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="order:${orders}">
+            <td><span th:text="${order.getId()}">序号</span></td>
+            <td><span th:text="${order.getOrderNo()}">订单编号</span></td>
+            <td><span th:text="${order.getStatusName()}">订单状态</span></td>
+            <td><span th:text="${#dates.format(order.getCreateTime(),'yyyy-MM-dd HH:mm:ss')}">订单时间</span></td>
+            <td><span th:text="${#dates.format(order.getUpdateTime(),'yyyy-MM-dd HH:mm:ss')}">订单时间</span></td>
+            <td>
+                <a class="btn btn-primary" th:if="${order.getStatus()==0}"
+                   th:href="@{'/pay/' + ${order.getOrderNo()} }">去支付</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <a class="btn btn-primary right-button" th:href="@{'/course/list/'}">查看课程</a>
+    </div>
+</div>
+</body>
+</html>

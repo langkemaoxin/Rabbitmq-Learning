@@ -39,10 +39,12 @@ public class CancelOrderListener {
         System.out.println("付款已超时，正在取消订单");
 
         Order order = new Order();
+
         order.setOrderNo(orderNo);
 
         orderService.cancelOrder(order);
-        channel.basicAck(deliveryTag,false);
+
+        channel.basicAck(deliveryTag, true);
 
     }
 }

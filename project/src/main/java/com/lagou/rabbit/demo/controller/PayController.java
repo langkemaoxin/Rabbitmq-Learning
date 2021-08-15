@@ -18,9 +18,9 @@ public class PayController {
         Order order = new Order();
         order.setOrderNo(orderNo);
 
-        orderService.saveOrder(order);
+        orderService.payOrder(order);
 
-        return "redirect:/pay/pay_success/"+orderNo;
+        return "redirect:/order/list";
     }
 
 }

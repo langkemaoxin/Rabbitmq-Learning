@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <form class="form-horizontal" role="form">
+        <h4>你的订单编号:<span th:text="${order.getOrderNo()}"></span></h4>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a class="btn btn-primary"
+                   th:href="@{'/pay/' + ${order.getOrderNo()} }">请支付</a>
+            </div>
+        </div>
+    </form>
+
+    <a class="btn btn-primary" th:href="@{'/order/list/'} ">订单列表</a>
+
+</div>
+</body>
+</html>
