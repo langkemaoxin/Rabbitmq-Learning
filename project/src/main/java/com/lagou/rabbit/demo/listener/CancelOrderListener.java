@@ -44,7 +44,7 @@ public class CancelOrderListener {
 
         orderService.cancelOrder(order);
 
-        channel.basicAck(deliveryTag, true);
+        channel.basicAck(deliveryTag, false);
 
     }
 }
